@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lora',sans-serif;
 }
 
 body{
@@ -33,6 +34,7 @@ body{
     background-color:#59056a;
     color: #ffff;
     padding: .8em 0;
+    border-radius: 3em;
 }
 
 .search-wrapper input{
@@ -42,4 +44,45 @@ body{
     border-bottom:2px solid #59056a;
     outline: none;
     color:#8d19a4;
+}
+
+#result{
+    margin-top: 1.25em;
+}
+
+.container .flag-img{
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
+
+.container h2 {
+    font-weight: 400;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+}
+
+.data-wrapper{
+    margin-bottom: 1em;
+    letter-spacing:  .3px;
+}
+
+.container h4{
+    display: inline;
+    color: #222a43;
+
+}
+
+.container span{
+    color: #5d6274;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 1.2em;
+    color: #ff465a;
 }
