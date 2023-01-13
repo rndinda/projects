@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lora', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.back_ground{
+    background: url('/ocean.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter:blur(0px);
+}
+
+.loading_text{
+    font-size: 50px;
+    color:#fff;
+}
